@@ -37,7 +37,7 @@ h1 {
 }
 
 .btn button {
-    width: 49%;
+    width: 100%;
     outline: none;
     border: 2px solid black;
     background-color: rgb(244, 244, 244);
@@ -152,7 +152,10 @@ h1 {
 .n:hover {
     transform: rotate(360deg);
 }
-
+a{
+    text-decoration: none;
+    width: 49%;
+}
 .banner {
     margin-bottom: 60px;
     padding: 20px;
